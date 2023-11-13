@@ -4,6 +4,7 @@
   "description": "",
   "main": "main.js",
   "scripts": {
+    "dev" : "nodemon main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -11,5 +12,8 @@
   "license": "ISC",
   "dependencies": {
     "fast-xml-parser": "^4.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
   }
 }
